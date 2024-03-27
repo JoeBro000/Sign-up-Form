@@ -1,3 +1,9 @@
+/* Create Account Color: #596D48
+   Default Inputs Color: #E5E7EB
+   Password Inputs invalid: red border
+   Focused Input: blue border and subtle box shadow
+*/
+
 * {
     font-family: sans-serif, Verdana, "Times New Roman";
     font-size: 30px;
