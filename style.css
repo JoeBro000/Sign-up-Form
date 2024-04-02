@@ -7,6 +7,31 @@
 * {
     font-family: sans-serif, Verdana, "Times New Roman";
     font-size: 30px;
-    background-color: royalblue;
+    background-color: white;
+    color: black;
+}
+
+button {
+    background-color: #596D48;
+}
+
+.container {
+    position: relative;
+    text-align: center;
     color: white;
+    display: flex;
+}
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-80%, -80%);
+    opacity: .6;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+
 }
