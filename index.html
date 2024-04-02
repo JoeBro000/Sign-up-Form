@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="hero-text">
         <p><strong>This is not a real online service! You know you need something 
             like this in your life to help you realize your deepest dreams. 
             Sign up now and get started.</strong>
         </p>
 
-        <p>You <i>know</i> you want to.</p>
-        <p>Let's do this!</p>
-        <div>
+        <p>You <em>know</em> you want to.</p>
+    </div>
+
+<div class="container">
+    <div class="background-image">
+    <img src="assets/halie-west-25xggax4bSA-unsplash.jpg">
+    </div>
 
             <form>
                 <form action="#" method="get">
                     <div class="form-field">
+                        <p>Let's do this!</p>
                         <label for="fname">First name:</label>
                     </div>
                     <input type="text" id="fname" name="fname">
@@ -28,7 +34,7 @@
                         <lalbel for="lname">Last name:</lalbel>    
                     </div>
                     <input type="text" id="lname" name="lname">
-
+                    
                     <div>
                         <label for="user-email">Email:</label>
                     </div>
@@ -42,17 +48,19 @@
                     <div>
                         <label for="password">Password:</label>
                     </div>
-                    <input type="password" id="password" name="password" pattern="[a-zA-z0-9][8,30]" required">
+                    <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required">
 
                     <div>
-                        <label for="confirm-password">Confirm Password:</label>
+                        <label for="confirm-password">Confirm Password:</label> <!-- Problem-->
                     </div>
-                    <input type="password" id="confirm-password" name="confirm-password" pattern="[a-zA-z0-9][8,30]" required">
+                    <input type="password" id="confirm-password" name="confirm-password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"> <!-- Problem-->
 
                     <div>
                         <button type="submit">Create Account</button>
                         <p>Already have an account? <a href="#">Log in</a></p>
                     </div>
+
+                </div>
                     
             </form>
         </div>
